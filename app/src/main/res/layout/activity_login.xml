@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:gravity="center"
+android:background="@color/chapmanRed">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/chapman_saferide"
+        />
+
+    <ImageView
+        android:layout_width="315dp"
+        android:layout_height="234dp"
+        android:src="@drawable/panther"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="50dp"
+        />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:id="@+id/Enter"
+    android:text="Enter your login credentials"
+    android:textColor="#A9A9A9"/>
+
+<EditText
+    android:id="@+id/loginUsernameField"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/Enter"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:layout_margin="10dp"
+    android:cursorVisible="true"
+    android:hint="Email"
+    android:textColor="#000000"
+    android:singleLine="true"
+    android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/loginPasswordField"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/loginUsernameField"
+        android:layout_centerHorizontal="true"
+        android:cursorVisible="true"
+        android:hint="Password"
+        android:textColor="#000000"
+        android:singleLine="true"
+        android:gravity="center"
+        android:inputType="textPassword"/>
+
+<ImageButton
+    android:id="@+id/loginButton"
+    android:layout_width="197dp"
+    android:layout_height="81dp"
+    android:layout_centerHorizontal="true"
+    android:layout_margin="10dp"
+    android:background="#000000"
+    android:backgroundTint="@android:color/transparent"
+    android:src="@drawable/enter_button" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:src="@drawable/chapman_university"
+        android:layout_marginTop="10dp"
+        />
+
+</LinearLayout>

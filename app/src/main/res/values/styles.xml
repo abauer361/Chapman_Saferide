@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/chapmanRed</item>
+        <item name="colorPrimaryDark">@color/chapmanBlack</item>
+        <item name="colorAccent">@color/chapmanGray</item>
+    </style>
+    
+    <style name="AppTheme.OverlayBar">
+    <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+</resources>
